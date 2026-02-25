@@ -8,6 +8,7 @@ import java.time.LocalDate;
 import java.util.UUID;
 
 
+
 public class Product {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
