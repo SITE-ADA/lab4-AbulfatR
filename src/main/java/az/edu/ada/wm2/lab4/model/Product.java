@@ -14,7 +14,6 @@ public class Product {
     private String productName;
     private BigDecimal price;
     private LocalDate expirationDate;
-
     public Product(){}
     public Product(String productName, BigDecimal price, LocalDate expirationDate){
         this.productName = productName;
